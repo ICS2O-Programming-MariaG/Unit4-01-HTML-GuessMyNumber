@@ -5,5 +5,54 @@
 */
 
 #user-guess {
-  width: 10%;
+  width: 20%;
+}
+
+body {
+  width: 80%;
+  margin: 5% 10%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  color: white;
+  background-color: #fe7964;
+  padding: 20px;
+  text-align: center;
+}
+
+#left-side {
+  float: left;
+  width: 50%;
+}
+
+img {
+  width: 20%;
+  float: right;
+  margin-right: 10%;
+}
+
+#blue {
+  background-color: #cdf6fe;
+  padding: 30px;
+}
+
+p {
+  margin-left: 10%;
+}
+
+form {
+  margin-left: 10%;
+}
+
+#yellow {
+  background-color: #fefccd;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+#results {
+  margin-left: 10%;
+  color: #682c85;
+  font-weight: bold;
 }

@@ -20,14 +20,24 @@
   <body>
     <script src="./js/script.js"></script>
     <h1>Guess My Number!</h1>
-    <p>Welcome to the Guess My Number guessing game! Type your guess below...</p>
-      <form action="javascript:guessSent()">
-        <label for="guess">Guess a Number Between 1 and 6:</label>
-        <input type="number" step="1" id="user-guess" min="1" max="6" placeholder="Your Guess..."><br><br>
-        <input type="submit" value="Check">
-      </form>
-      <!-- Div for results -->
-      <div id="results"></div>
-    </form>
+    <!-- Div for style -->
+    <div id="left-side">
+      <!-- Div for more style -->
+      <div id="blue">
+        <p>Welcome to the Guess My Number guessing game! Type your guess below...</p>
+        <!-- Form for user input -->
+        <form action="javascript:guessSent()">
+          <label for="guess">Guess a Number Between 1 and 6:</label>
+          <input type="number" step="1" id="user-guess" min="1" max="6" placeholder="Your Guess..."><br><br>
+          <input type="submit" value="Check">
+        </form>
+      </div>
+      <!-- Div for background colour -->
+      <div id="yellow">
+        <!-- Div for results -->
+        <div id="results"></div>
+      </div>
+    </div>
+    <img src="./images/number.gif" alt="numbers">
   </body>
 </html>
