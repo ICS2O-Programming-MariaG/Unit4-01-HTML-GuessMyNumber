@@ -7,11 +7,11 @@
 function guessSent() {
   const MAX = 6;
   const MIN = 1;
-  let correctNumber = Math.floor(Math.random() * MAX + MIN);
+  let correctNumber = Math.floor(Math.random() * MAX + MIN);  
   let guessedNumber = document.getElementById("user-guess").value;
   //if/then statement: if correctNumber is equal to guessedNumber
   if (correctNumber == guessedNumber) {
-    document.getElementById("results").innerHTML = "You are correct!";
+    document.getElementById("results").innerHTML = "You are correct! Congratulations!";
   }
   //else: if the numbers are not equal
   else {
